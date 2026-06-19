@@ -1,0 +1,20 @@
+{
+  "name": "black-russia-virty-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot that monitors public Black Russia virty lots and notifies when price per 1kk is below a threshold.",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "telegram-bot",
+    "railway",
+    "monitoring"
+  ],
+  "license": "MIT"
+}
